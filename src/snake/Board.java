@@ -198,15 +198,15 @@ public int Save(int score) {
 		String save;
 		Scanner fileIn = new Scanner(new FileReader("save.txt"));
 		save = fileIn.nextLine();
-    fileIn.close();
+		fileIn.close();
 		int number = Integer.parseInt(save);
 		if(number < score) {
 			number = score;
 			Integer forChangeToString = new Integer(number);
 			String best = forChangeToString.toString();
-      Formatter fileOut = new Formatter(new FileWriter("save.txt"));
-      fileOut.format(best);
-      fileOut.close();
+			Formatter fileOut = new Formatter(new FileWriter("save.txt"));
+			fileOut.format(best);
+			fileOut.close();
 		}
 		return number;
 	} catch(IOException e) {
