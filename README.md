@@ -1,10 +1,11 @@
 # The-Snake
 snake game make with swing &amp; awt technology in java
 
-require:
+#### require:
 * jdk >= 1.7
 
-Features:
+### Features:
+--------
 * controls with w,a,s,d and arrows
 * fullscreen
 * save your best score
