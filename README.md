@@ -1,14 +1,13 @@
 # The-Snake
-snake game make with swing &amp; awt technology in java
+Snake game with SWING and AWT technology in Java
 
-#### require:
-* jdk >= 1.7
+### Requirements
+* JDK >= 1.7
 
-### Features:
---------
-* controls with w,a,s,d and arrows
-* fullscreen
-* save your best score
-* ability to change game speed (very simple with Code!)
+### Features
+* Controls with w,a,s,d and arrows
+* Fullscreen
+* Save your best score
+* Ability to change game speed (very simple with Code!)
 
-enjoy that!
+Enjoy that!
